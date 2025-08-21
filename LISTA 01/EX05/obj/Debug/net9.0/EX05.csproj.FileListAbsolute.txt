@@ -1,0 +1,14 @@
+C:\Users\Noemi Oliveira\Downloads\LISTA01-20250821T002046Z-1-001\LISTA01\EX05\bin\Debug\net9.0\EX05.exe
+C:\Users\Noemi Oliveira\Downloads\LISTA01-20250821T002046Z-1-001\LISTA01\EX05\bin\Debug\net9.0\EX05.deps.json
+C:\Users\Noemi Oliveira\Downloads\LISTA01-20250821T002046Z-1-001\LISTA01\EX05\bin\Debug\net9.0\EX05.runtimeconfig.json
+C:\Users\Noemi Oliveira\Downloads\LISTA01-20250821T002046Z-1-001\LISTA01\EX05\bin\Debug\net9.0\EX05.dll
+C:\Users\Noemi Oliveira\Downloads\LISTA01-20250821T002046Z-1-001\LISTA01\EX05\bin\Debug\net9.0\EX05.pdb
+C:\Users\Noemi Oliveira\Downloads\LISTA01-20250821T002046Z-1-001\LISTA01\EX05\obj\Debug\net9.0\EX05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Noemi Oliveira\Downloads\LISTA01-20250821T002046Z-1-001\LISTA01\EX05\obj\Debug\net9.0\EX05.AssemblyInfoInputs.cache
+C:\Users\Noemi Oliveira\Downloads\LISTA01-20250821T002046Z-1-001\LISTA01\EX05\obj\Debug\net9.0\EX05.AssemblyInfo.cs
+C:\Users\Noemi Oliveira\Downloads\LISTA01-20250821T002046Z-1-001\LISTA01\EX05\obj\Debug\net9.0\EX05.csproj.CoreCompileInputs.cache
+C:\Users\Noemi Oliveira\Downloads\LISTA01-20250821T002046Z-1-001\LISTA01\EX05\obj\Debug\net9.0\EX05.dll
+C:\Users\Noemi Oliveira\Downloads\LISTA01-20250821T002046Z-1-001\LISTA01\EX05\obj\Debug\net9.0\refint\EX05.dll
+C:\Users\Noemi Oliveira\Downloads\LISTA01-20250821T002046Z-1-001\LISTA01\EX05\obj\Debug\net9.0\EX05.pdb
+C:\Users\Noemi Oliveira\Downloads\LISTA01-20250821T002046Z-1-001\LISTA01\EX05\obj\Debug\net9.0\EX05.genruntimeconfig.cache
+C:\Users\Noemi Oliveira\Downloads\LISTA01-20250821T002046Z-1-001\LISTA01\EX05\obj\Debug\net9.0\ref\EX05.dll

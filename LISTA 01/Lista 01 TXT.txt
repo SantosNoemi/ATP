@@ -1,0 +1,119 @@
+Lista de ATP 01 - Noemi Santos de Oliveira
+
+===============================================================
+Questão 01 
+===============================================================
+
+//Declarando variavéis
+double nota1, nota2, mediaPonderada; 
+
+//Entrada de dados
+Console.WriteLine("Insira a primeira nota(seu respectivo peso é 2): ");
+nota1 = double.Parse (Console.ReadLine());
+Console.WriteLine("Insira a segunda nota(seu respectivo peso é 3): ");
+nota2 = double.Parse (Console.ReadLine());
+
+//Processamento
+//Multiplicação das notas pelos seus respectivos pesos e divisão pela soma dos pesos
+mediaPonderada = (nota1 * 2 + nota2 * 3) / 5; 
+
+//Saída de dados
+Console.WriteLine("A média ponderada das notas é {mediaPonderada}", mediaPonderada);	
+
+
+===============================================================
+Questão 02 
+===============================================================
+
+//Declarando variáveis
+double produto, promocao;
+
+//Entrada do valor do produto
+Console.WriteLine("Informe o valor do produto: ");
+produto = double.Parse(Console.ReadLine());
+
+//Fórmula para calcular promoção
+promocao = produto - ( produto * (10.0 / 100));
+
+//Saída de dados
+Console.WriteLine($"O valor do produto com desconto aplicado é: {promocao:c}");
+
+===============================================================
+Questão 03 
+===============================================================
+
+//Declarando variáveis
+double baseMenor, baseMaior, altura, area;
+
+//Entrada de dados para encontrar a área do trapézio
+Console.WriteLine("Insira os valores respectivos da base menor, base maior e altura do trapézio para encontrar a área: ");
+baseMenor = double.Parse(Console.ReadLine());
+baseMaior = double.Parse(Console.ReadLine());
+altura = double.Parse(Console.ReadLine());
+
+//Formula (base maior + base menor) * altura / 2
+area = ((baseMaior + baseMenor) * altura) / 2;
+
+//Saída de dados = valor da área do trapézio
+Console.WriteLine("A área do trapézio é {0}", area);
+
+===============================================================
+Questão 04 
+===============================================================
+
+//Variáveis
+double salarioMinimo, salariofuncionario, qntdsalarios;
+
+//Entrada de dados
+Console.WriteLine("Qual o salário minímo atual: ");
+salarioMinimo = double.Parse(Console.ReadLine());
+Console.WriteLine("Qual o salário do funcionário: ");
+salariofuncionario = double.Parse(Console.ReadLine());
+
+//Calculo da quantidade de salários
+qntdsalarios = salariofuncionario / salarioMinimo;
+
+//Saída de dados
+Console.WriteLine($"A quantidade de salários minímos equivalente ao salário deste funcionário é: {qntdsalarios:0}.");
+
+===============================================================
+Questão 05 
+===============================================================
+
+// Favor colocar o código APENAS AQUI
+// NÃO APAGUE as 3 linhas de cabeçalho acima
+
+===============================================================
+Questão 06 
+===============================================================
+
+// Favor colocar o código APENAS AQUI
+// NÃO APAGUE as 3 linhas de cabeçalho acima
+
+===============================================================
+Questão 07 
+===============================================================
+
+// Favor colocar o código APENAS AQUI
+// NÃO APAGUE as 3 linhas de cabeçalho acima
+
+===============================================================
+Questão 08 
+===============================================================
+
+// Favor colocar o código APENAS AQUI
+// NÃO APAGUE as 3 linhas de cabeçalho acima
+
+===============================================================
+Questão 09 
+===============================================================
+
+// Favor colocar o código APENAS AQUI
+// NÃO APAGUE as 3 linhas de cabeçalho acima
+
+===============================================================
+Questão 10 
+===============================================================
+
+// Favor colocar o código APENAS AQUI
+// NÃO APAGUE as 3 linhas de cabeçalho acima
