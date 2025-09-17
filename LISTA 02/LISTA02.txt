@@ -1,0 +1,280 @@
+Lista de ATP 02 - Noemi Santos de Oliveira
+
+===============================================================
+Questão 01 
+===============================================================
+
+//Variaveis
+int num;
+
+//Entrada e saída de dados
+Console.WriteLine("Digite um número inteiro: ");
+num = int.Parse(Console.ReadLine());
+
+if (num > 0)
+    Console.WriteLine("O número é positivo.");
+
+else if (num < 0)
+    Console.WriteLine("O número é negativo.");
+else
+    Console.WriteLine("O número é zero.");	
+
+
+===============================================================
+Questão 02 
+===============================================================
+
+//variáveis
+int num1 = 0, num2 = 0, num3 = 0;
+
+//entrada
+Console.WriteLine("Digite três números inteiros: ");
+num1 = int.Parse(Console.ReadLine());
+num2 = int.Parse(Console.ReadLine());
+num3 = int.Parse(Console.ReadLine());
+
+//processamento e saída
+if (num1 > num2 && num1 > num3)
+    Console.WriteLine("O maior número é: " + num1);
+else if (num2 > num1 && num2 > num3)
+    Console.WriteLine("O maior número é: " + num2);
+else
+    Console.WriteLine("O maior número é: " + num3);
+
+===============================================================
+Questão 03 
+===============================================================
+
+//variável
+int ano;
+
+//entrada
+Console.WriteLine("Digite um ano para testar se ele é Bissexto: ");
+ano = int.Parse(Console.ReadLine());
+
+//processamento e saída
+if (ano % 4 == 0 && ano % 100 != 0)
+    Console.WriteLine("O ano " + ano + " é Bissexto.");
+else if (ano % 400 == 0 && ano % 100 == 0)
+    Console.WriteLine("O ano " + ano + " é Bissexto.");
+else
+    Console.WriteLine("O ano " + ano + " não é Bissexto.");
+
+===============================================================
+Questão 04 
+===============================================================
+
+//variável
+int idade;
+
+//entrada
+Console.WriteLine("Digite a idade de uma pessoa: ");
+idade = int.Parse(Console.ReadLine());
+
+//processamento e saída
+if (idade >= 0 && idade <= 12)
+    Console.WriteLine("Criança");
+else if (idade >= 13 && idade <= 17)
+    Console.WriteLine("Adolescente");
+else if (idade >= 18 && idade <= 64)
+    Console.WriteLine("Adulto");
+else
+    Console.WriteLine("Idoso");
+
+===============================================================
+Questão 05 
+===============================================================
+
+//Declarando varíaveis
+double a, b, r = 0;
+char op;
+
+//Entrada de dados
+Console.WriteLine("Digite um valor: ");
+a = double.Parse(Console.ReadLine());
+Console.WriteLine("Digite outro valor: ");
+b = double.Parse(Console.ReadLine());
+Console.WriteLine("Operação matemática: ");
+op = char.Parse(Console.ReadLine());
+
+//Caso seja o sinal selecionado, faça a operação correspondente
+switch (op)
+{
+    case '+':
+        r = a + b;
+        break;
+
+    case '-':
+        r = a - b;
+        break;
+
+    case '*':
+        r = a * b;
+        break;
+
+    case '/':
+        r = a / b;
+        break;
+
+    default:
+        Console.WriteLine("Inválido");
+        break;
+}
+//Saída de dados
+Console.WriteLine("Resultado: " + r);
+
+===============================================================
+Questão 06 
+===============================================================
+
+//Variaveis
+string aluno;
+double nota1, nota2, nota3, media;
+
+//Entrada de dados
+Console.WriteLine("Informe o nome do aluno: ");
+aluno = Console.ReadLine();
+Console.WriteLine("Insira a primeira nota do aluno: ");
+nota1 = double.Parse(Console.ReadLine());
+Console.WriteLine("Insira a segunda nota do aluno: ");
+nota2 = double.Parse(Console.ReadLine());
+Console.WriteLine("Insira a terceira nota do aluno: ");
+nota3 = double.Parse(Console.ReadLine());
+
+//Processamento de dados
+media = (nota1 + nota2 + nota3) / 3;
+
+if (media >= 7)
+    Console.WriteLine($"{aluno} aprovado(a)!");
+else if (media >= 5 || media < 7)
+    Console.WriteLine($"{aluno} está de recuperação '-'.");
+else
+    Console.WriteLine($"{aluno} reprovado(a) ;-;.");
+
+===============================================================
+Questão 07 
+===============================================================
+
+//Variável
+double F, C;
+
+//Entrada de dados
+Console.WriteLine("DIgite a temperatura: ");
+F = double.Parse(Console.ReadLine());
+
+//Processamento e saída de dados
+C = (F - 32) * 5 / 9;
+if (C < 0)
+    Console.WriteLine("Está muito frio!");
+else if (C >= 0 && C <= 30)
+    Console.WriteLine("O clima está agradável.");
+else
+    Console.WriteLine("Está muito quente!");
+
+
+===============================================================
+Questão 08 
+===============================================================
+
+//Variáveis
+double htrabalhadas, salariohora, salariobruto, salarioliquido;
+
+//Entrada de dados
+Console.WriteLine("Informe as horas trabalhadas: ");
+htrabalhadas = int.Parse(Console.ReadLine());
+Console.WriteLine("Informe o valor recebido por horas trabalhadas: ");
+salariohora = int.Parse(Console.ReadLine());
+
+//Processamento de dados
+salariobruto = htrabalhadas * salariohora;
+if (salariobruto <= 900)
+{
+    salarioliquido = salariobruto * 0.08;
+    salarioliquido = salariobruto - salarioliquido;
+}
+else if (salariobruto >= 900.01 && salariobruto <= 1500)
+{
+    salarioliquido = salariobruto * 0.9;
+    salarioliquido = salariobruto - salarioliquido;
+}
+else if (salariobruto >= 1500.01 && salariobruto <= 2500)
+{
+    salarioliquido = salariobruto * 0.1;
+    salarioliquido = salariobruto - salarioliquido;
+}
+else
+{
+    salarioliquido = salariobruto * 0.11;
+    salarioliquido = salariobruto - salarioliquido;
+}
+//saída de dados
+Console.WriteLine("O salário líquido do funcionário será: " + salarioliquido);
+
+===============================================================
+Questão 09 
+===============================================================
+
+//Variavel
+char dia;
+
+//Entrada de dado
+Console.WriteLine("Insira um número entre 1 e 7: ");
+dia = char.Parse(Console.ReadLine());
+
+//Processamento e saída de dado
+switch (dia)
+{
+    case '1':
+        Console.WriteLine("Domingo");
+        break;
+    case '2':
+        Console.WriteLine("Segunda-feira");
+        break;
+    case '3':
+        Console.WriteLine("Terça-feira");
+        break;
+    case '4':
+        Console.WriteLine("Quarta-feira");
+        break;
+    case '5':
+        Console.WriteLine("Quinta-feira");
+        break;
+    case '6':
+        Console.WriteLine("Sexta-feira");
+        break;
+    case '7':
+        Console.WriteLine("Sábado");
+        break;
+    default:
+        Console.WriteLine("Número inválido.");
+        break;
+}
+
+===============================================================
+Questão 10 
+===============================================================
+
+//Variaveis
+char sexo;
+double altura, pesoideal;
+
+//Entrada de dados
+Console.WriteLine("Insira o seu sexo (f ou m) e altura respectivamente: ");
+sexo = char.Parse(Console.ReadLine());
+altura = double.Parse(Console.ReadLine());
+
+//Processamento e saída de dados
+switch (sexo)
+{
+    case 'f':
+        pesoideal = (62.1 * altura) - 44.7;
+        Console.WriteLine($"O seu peso ideal é: {pesoideal:F2}kg.");
+        break;
+    case 'm':
+        pesoideal = (72.7 * altura) - 58;
+        Console.WriteLine($"O seu peso ideal é: {pesoideal:F2}kg.");
+        break;
+    default:
+        Console.WriteLine("Resposta inválida. Por favor digite f ou m para informar o seu sexo.");
+        break;
+}

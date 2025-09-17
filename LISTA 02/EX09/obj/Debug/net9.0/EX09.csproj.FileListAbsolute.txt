@@ -1,0 +1,14 @@
+C:\Users\1438757\Desktop\EX09\bin\Debug\net9.0\EX09.exe
+C:\Users\1438757\Desktop\EX09\bin\Debug\net9.0\EX09.deps.json
+C:\Users\1438757\Desktop\EX09\bin\Debug\net9.0\EX09.runtimeconfig.json
+C:\Users\1438757\Desktop\EX09\bin\Debug\net9.0\EX09.dll
+C:\Users\1438757\Desktop\EX09\bin\Debug\net9.0\EX09.pdb
+C:\Users\1438757\Desktop\EX09\obj\Debug\net9.0\EX09.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1438757\Desktop\EX09\obj\Debug\net9.0\EX09.AssemblyInfoInputs.cache
+C:\Users\1438757\Desktop\EX09\obj\Debug\net9.0\EX09.AssemblyInfo.cs
+C:\Users\1438757\Desktop\EX09\obj\Debug\net9.0\EX09.csproj.CoreCompileInputs.cache
+C:\Users\1438757\Desktop\EX09\obj\Debug\net9.0\EX09.dll
+C:\Users\1438757\Desktop\EX09\obj\Debug\net9.0\refint\EX09.dll
+C:\Users\1438757\Desktop\EX09\obj\Debug\net9.0\EX09.pdb
+C:\Users\1438757\Desktop\EX09\obj\Debug\net9.0\EX09.genruntimeconfig.cache
+C:\Users\1438757\Desktop\EX09\obj\Debug\net9.0\ref\EX09.dll

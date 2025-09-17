@@ -1,0 +1,14 @@
+C:\Users\1438757\Desktop\LISTA 02\EX06\obj\Debug\net9.0\EX06.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1438757\Desktop\LISTA 02\EX06\obj\Debug\net9.0\EX06.AssemblyInfoInputs.cache
+C:\Users\1438757\Desktop\LISTA 02\EX06\obj\Debug\net9.0\EX06.AssemblyInfo.cs
+C:\Users\1438757\Desktop\LISTA 02\EX06\obj\Debug\net9.0\EX06.csproj.CoreCompileInputs.cache
+C:\Users\1438757\Desktop\LISTA 02\EX06\bin\Debug\net9.0\EX06.exe
+C:\Users\1438757\Desktop\LISTA 02\EX06\bin\Debug\net9.0\EX06.deps.json
+C:\Users\1438757\Desktop\LISTA 02\EX06\bin\Debug\net9.0\EX06.runtimeconfig.json
+C:\Users\1438757\Desktop\LISTA 02\EX06\bin\Debug\net9.0\EX06.dll
+C:\Users\1438757\Desktop\LISTA 02\EX06\bin\Debug\net9.0\EX06.pdb
+C:\Users\1438757\Desktop\LISTA 02\EX06\obj\Debug\net9.0\EX06.dll
+C:\Users\1438757\Desktop\LISTA 02\EX06\obj\Debug\net9.0\refint\EX06.dll
+C:\Users\1438757\Desktop\LISTA 02\EX06\obj\Debug\net9.0\EX06.pdb
+C:\Users\1438757\Desktop\LISTA 02\EX06\obj\Debug\net9.0\EX06.genruntimeconfig.cache
+C:\Users\1438757\Desktop\LISTA 02\EX06\obj\Debug\net9.0\ref\EX06.dll

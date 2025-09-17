@@ -1,0 +1,14 @@
+C:\Users\1438757\Desktop\LISTA 02\EX08\obj\Debug\net9.0\EX08.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1438757\Desktop\LISTA 02\EX08\obj\Debug\net9.0\EX08.AssemblyInfoInputs.cache
+C:\Users\1438757\Desktop\LISTA 02\EX08\obj\Debug\net9.0\EX08.AssemblyInfo.cs
+C:\Users\1438757\Desktop\LISTA 02\EX08\obj\Debug\net9.0\EX08.csproj.CoreCompileInputs.cache
+C:\Users\1438757\Desktop\LISTA 02\EX08\bin\Debug\net9.0\EX08.exe
+C:\Users\1438757\Desktop\LISTA 02\EX08\bin\Debug\net9.0\EX08.deps.json
+C:\Users\1438757\Desktop\LISTA 02\EX08\bin\Debug\net9.0\EX08.runtimeconfig.json
+C:\Users\1438757\Desktop\LISTA 02\EX08\bin\Debug\net9.0\EX08.dll
+C:\Users\1438757\Desktop\LISTA 02\EX08\bin\Debug\net9.0\EX08.pdb
+C:\Users\1438757\Desktop\LISTA 02\EX08\obj\Debug\net9.0\EX08.dll
+C:\Users\1438757\Desktop\LISTA 02\EX08\obj\Debug\net9.0\refint\EX08.dll
+C:\Users\1438757\Desktop\LISTA 02\EX08\obj\Debug\net9.0\EX08.pdb
+C:\Users\1438757\Desktop\LISTA 02\EX08\obj\Debug\net9.0\EX08.genruntimeconfig.cache
+C:\Users\1438757\Desktop\LISTA 02\EX08\obj\Debug\net9.0\ref\EX08.dll
