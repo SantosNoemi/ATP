@@ -1,0 +1,15 @@
+C:\Users\Noemi Oliveira\OneDrive\Documentos\GitHub\ATP\LISTA 03\EX08\bin\Debug\net9.0\EX08.exe
+C:\Users\Noemi Oliveira\OneDrive\Documentos\GitHub\ATP\LISTA 03\EX08\bin\Debug\net9.0\EX08.deps.json
+C:\Users\Noemi Oliveira\OneDrive\Documentos\GitHub\ATP\LISTA 03\EX08\bin\Debug\net9.0\EX08.runtimeconfig.json
+C:\Users\Noemi Oliveira\OneDrive\Documentos\GitHub\ATP\LISTA 03\EX08\bin\Debug\net9.0\EX08.dll
+C:\Users\Noemi Oliveira\OneDrive\Documentos\GitHub\ATP\LISTA 03\EX08\bin\Debug\net9.0\EX08.pdb
+C:\Users\Noemi Oliveira\OneDrive\Documentos\GitHub\ATP\LISTA 03\EX08\obj\Debug\net9.0\EX08.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Noemi Oliveira\OneDrive\Documentos\GitHub\ATP\LISTA 03\EX08\obj\Debug\net9.0\EX08.AssemblyInfoInputs.cache
+C:\Users\Noemi Oliveira\OneDrive\Documentos\GitHub\ATP\LISTA 03\EX08\obj\Debug\net9.0\EX08.AssemblyInfo.cs
+C:\Users\Noemi Oliveira\OneDrive\Documentos\GitHub\ATP\LISTA 03\EX08\obj\Debug\net9.0\EX08.csproj.CoreCompileInputs.cache
+C:\Users\Noemi Oliveira\OneDrive\Documentos\GitHub\ATP\LISTA 03\EX08\obj\Debug\net9.0\EX08.sourcelink.json
+C:\Users\Noemi Oliveira\OneDrive\Documentos\GitHub\ATP\LISTA 03\EX08\obj\Debug\net9.0\EX08.dll
+C:\Users\Noemi Oliveira\OneDrive\Documentos\GitHub\ATP\LISTA 03\EX08\obj\Debug\net9.0\refint\EX08.dll
+C:\Users\Noemi Oliveira\OneDrive\Documentos\GitHub\ATP\LISTA 03\EX08\obj\Debug\net9.0\EX08.pdb
+C:\Users\Noemi Oliveira\OneDrive\Documentos\GitHub\ATP\LISTA 03\EX08\obj\Debug\net9.0\EX08.genruntimeconfig.cache
+C:\Users\Noemi Oliveira\OneDrive\Documentos\GitHub\ATP\LISTA 03\EX08\obj\Debug\net9.0\ref\EX08.dll
