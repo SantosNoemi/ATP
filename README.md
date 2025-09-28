@@ -3,10 +3,10 @@ Listas de ATP;
 Atividades;
 Trabalhos
 
-Listas
+Listas ATP
 ----------------------------------------
-Entregas    | Datas     | Pontos
+Entregas        | Datas     | Pontos
 ----------------------------------------
-Lista 01    | 06/09     | 0/2 pontos
-----------------------------------------
-Total:                  | 0/80
+LISTA 01        | 08/09     | 2,0 /2
+LISTA 02        | 21/09     | 2,0 /2
+LISTA 03        | 29/09     | 0,0 /2
