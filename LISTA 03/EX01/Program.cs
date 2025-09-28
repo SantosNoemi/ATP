@@ -10,5 +10,5 @@ for (int x = 1; x <= 500; x++)
         soma = soma + x;
     }
 }
-//Sáiida de dados
+//Saida de dados
 Console.WriteLine("A soma dos números ímpares e múltiplos de 3 é: " + soma);

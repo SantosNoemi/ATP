@@ -1,0 +1,333 @@
+Lista de ATP 01 - Noemi Santos de Oliveira
+
+===============================================================
+Questão 01 
+===============================================================
+
+//Variavel
+int soma = 0;
+
+//Processamento
+//Se for múltiplo de 3 e ímpar, será somado
+for (int x = 1; x <= 500; x++)
+{
+    if (x % 2 != 0 && x % 3 == 0)
+    {
+        soma = soma + x;
+    }
+}
+//Saida de dados
+Console.WriteLine("A soma dos números ímpares e múltiplos de 3 é: " + soma);
+
+
+
+===============================================================
+Questão 02 
+===============================================================
+
+//variaveis c/ esses valores iniciais para garantir que qualquer altura digitada será maior ou menor
+double menor = 999, maior = 1, altura;
+
+//Laço para ler as alturas de 15 pessoas
+for (int i = 0; i < 15; i++)
+{
+    Console.WriteLine($"Digite a altura da {i + 1}ª pessoa: ");
+    altura = double.Parse(Console.ReadLine());
+
+    //Verifica se a altura lida é menor que a menor altura já registrada ou maior que a maior altura já registrada
+    //Ifs independentes, pois ambas as verificações devem ser feitas para cada altura lida
+    if (altura < menor)
+    {
+        menor = altura;
+    }
+    if (altura > maior)
+    {
+        maior = altura;
+    }
+}
+//Saída dos resultados da menor e maior altura
+Console.WriteLine($"A menor altura é: {menor:F2} e a maior altura é: {maior:F2}");
+
+===============================================================
+Questão 03 
+===============================================================
+
+//Variaveis
+int a, b, s, m;
+
+//Processando dados
+for (int x = 1000; x <= 9999; x++)
+{
+    a = x / 100; //pega os dois primeiros digitos
+    b = x % 100; //pega os dois últimos digitos
+    s = a + b; //soma os dois
+    m = s * s; //multiplica o resultado da soma por si mesma
+    if (m == x) //compara o resulta com o valor atual de x
+        Console.WriteLine("Resultado: " + m); //saída de dados
+}
+
+===============================================================
+Questão 04 
+===============================================================
+
+//Variáveis
+int a = 0, b = 1, c, n;
+
+//Entrada
+Console.WriteLine("Digite o número de termos da sequência de Fibonacci que deseja exibir:");
+n = int.Parse(Console.ReadLine());
+
+//Processamento e Saída
+if (n <= 0)
+{
+    Console.WriteLine("Digite um número maior que zero.");
+}
+else
+{
+    Console.WriteLine("Sequencia de Fibonacci:");
+    for (int i = 1; i <= n; i++) //Loop para calcular e exibir os termos
+    {
+        Console.Write(a + " "); //Exibe o valor atual de 'a'
+        c = a + b; //Calcula o próximo termo   
+        a = b;
+        b = c;
+    }
+}
+
+===============================================================
+Questão 05 
+===============================================================
+
+//declara PI com valor inicial 0, pois o valor sera atualizado
+double pi = 0; 
+
+//Usuário informa a quantidade de termos
+Console.WriteLine ("Informe quantos termos serão calculados na serie de Leibniz: ");
+int n = int.Parse (Console.ReadLine());
+
+//laço de repetição para realizar o cálculo com a quantidade de termos informada
+for (int i = 0; i < n; i++)
+{
+    //Math.Pow (-1... é para sempre alternar entre + ou -
+    //sempre que i for par, o sinal é +
+    //sempre que i for impar, o sinal é -
+    double termo = Math.Pow (-1, i) / (2 * i +1); 
+    //Atualiza o valor de PI e deposita na variável
+    pi = pi + termo;
+}
+//depois multiplica o resultado por 4 para se apróximar do valor de PI
+pi = pi * 4;
+
+//saída de dados
+Console.WriteLine ($"O valor aproximado de PI com {n} termos é: {pi}");
+
+===============================================================
+Questão 06 
+===============================================================
+
+//Variaveis
+int a, n, soma = 0;
+
+//Pede ao usuario para indicar o valor de A e N
+Console.WriteLine("Informe o valor de A: ");
+a = int.Parse (Console.ReadLine());
+Console.WriteLine("Informe o valor de N: ");
+n = int.Parse (Console.ReadLine());
+
+//Condicional para caso o A fornecido seja negativo
+while (n <= 0)
+{
+    Console.WriteLine("Número inválido. Informe um novo valor para N: ");
+    n = int.Parse (Console.ReadLine());
+}
+//Laço de repetição para atualizar o valor de soma e somar com o valor de A
+//Dessa forma, os próximos números após A estão na sequencia numerica
+//Ex: soma = 0, A = 3, i = 1 | soma = 0 + 3 + 1 | soma = 4
+for (int i = 0; i < n; i++)
+{
+    soma = soma + a + i;
+} 
+//Saída de dados
+Console.WriteLine ("A soma dos {0} termos à partir de A foram: {1}", n, soma);
+
+===============================================================
+Questão 07 
+===============================================================
+
+//Valor de n deve ser positivo
+int n = 0;
+int intervalo1 = 0, intervalo2 = 0, intervalo3 = 0, intervalo4 = 0;
+
+//Leitura do valor de n
+Console.WriteLine("Digite um número (inteiro positivo): ");
+n = int.Parse(Console.ReadLine());
+
+//Laço para ler os valores enquanto n for positivo
+while (n >= 0)
+{
+    //Verifica em qual intervalo o valor de n se encaixa e incrementa o contador do respectivo intervalo
+    if (n >= 0 && n <= 25)
+        intervalo1++;
+    else if (n >= 26 && n <= 50)
+        intervalo2++;
+    else if (n >= 51 && n <= 75)
+        intervalo3++;
+    else if (n >= 76 && n <= 100)
+        intervalo4++;
+    else
+        Console.WriteLine("Número fora do intervalo");
+
+    //Leitura do próximo valor de n
+    Console.WriteLine("Digite números inteiros positivos: ");
+    n = int.Parse(Console.ReadLine());
+}
+
+
+//Exibição dos resultados
+Console.WriteLine("Quantidade de números lidos entre: ");
+Console.WriteLine($"[0-25]: {intervalo1}");
+Console.WriteLine($"[26-50]: {intervalo2}");
+Console.WriteLine($"[51-75]: {intervalo3}");
+Console.WriteLine($"[76-100]: {intervalo4}");
+
+===============================================================
+Questão 08 
+===============================================================
+
+//Declarando as variáveis
+int a, b, resto, mdc, mmc;
+
+//Lendo os valores de A e B
+Console.Write("Digite o valor de A: ");
+a = int.Parse(Console.ReadLine());
+Console.Write("Digite o valor de B: ");
+b = int.Parse(Console.ReadLine());
+
+//Declarando essas variáveis aqui para não perder os valores originais de A e B
+int x = a;
+int y = b;
+
+//Calculando o MDC usando o Algoritmo de Euclides
+while (y != 0)
+{
+    resto = x % y; //Calcula o resto da divisão
+    x = y; //Atribui o valor de Y a X
+    y = resto; //Atribui o valor do resto a Y
+}
+mdc = x; //O MDC é o último valor não nulo de X
+mmc = (a * b) / mdc; //Calculando o MMC usando a relação entre MDC e MMC
+
+//Exibindo os resultados
+Console.WriteLine($"O MDC de {a} e {b} é: {mdc}");
+Console.WriteLine($"O MMC de {a} e {b} é: {mmc}");
+
+===============================================================
+Questão 09 
+===============================================================
+
+//Declarando variáveis
+int voto, candidato1 = 0, candidato2 = 0, candidato3 = 0, candidato4 = 0;
+int nulo = 0, branco = 0, totalVotos = 0;
+
+//Lendo o primeiro voto
+Console.Write("Insira o seu voto (1, 2, 3, 4, 5 para nulo e 6 para branco): ");
+voto = int.Parse(Console.ReadLine());
+
+//While para continuar recebendo votos até que o usuário insira 0
+while (voto != 0)
+{
+    //Contabilizando os votos
+    switch (voto)
+    {
+        case 1:
+            candidato1++;
+            break;
+        case 2:
+            candidato2++;
+            break;
+        case 3:
+            candidato3++;
+            break;
+        case 4:
+            candidato4++;
+            break;
+        case 5:
+            nulo++;
+            break;
+        case 6:
+            branco++;
+            break;
+        default:
+            Console.WriteLine("Voto inválido!");
+            break;
+    }
+    //Incrementando o total de votos e lendo o próximo voto
+    totalVotos++; //Aqui todo voto diferente de 0 é contado, inclusive os inválidos
+    Console.Write("Insira o seu voto (1, 2, 3, 4, 5 para nulo e 6 para branco): ");
+    voto = int.Parse(Console.ReadLine());
+}
+
+//Exibindo o resultado da votação
+Console.WriteLine("-------------------------------------");
+Console.WriteLine("Obrigado por votar!");
+Console.WriteLine("-------------------------------------");
+Console.WriteLine($"Total de votos: {totalVotos}");
+Console.WriteLine($"Candidato 1: {candidato1} votos");
+Console.WriteLine($"Candidato 2: {candidato2} votos");
+Console.WriteLine($"Candidato 3: {candidato3} votos");
+Console.WriteLine($"Candidato 4: {candidato4} votos");
+Console.WriteLine($"Votos nulos: {nulo}");
+Console.WriteLine($"Votos em branco: {branco}");
+
+===============================================================
+Questão 10 
+===============================================================
+
+//Declaração das variáveis
+double salario, somaSalario = 0, mediaSalario, mediaFilhos, perc1500;
+int filhos, somaFilhos = 0, i = 0, cont1500 = 0;
+
+//Lendo o primeiro salário
+Console.Write("Informe os dados do habitante: ");
+Console.Write("Digite o salário (ou um valor negativo para encerrar): ");
+salario = double.Parse(Console.ReadLine());
+
+//Loop para ler os dados dos habitantes até que um salário negativo seja inserido
+while (salario >= 0)
+{
+    //Lendo o número de filhos
+    Console.Write("Quantidade de filhos: ");
+    filhos = int.Parse(Console.ReadLine());
+
+    // Acumulando os valores para cálculo das médias e percentual
+    somaSalario += salario;
+    somaFilhos += filhos;
+    i++;
+
+    // Contando quantos têm salário até 1500
+    if (salario <= 1500)
+    {
+        cont1500++;
+    }
+
+    // Lendo o próximo salário
+    Console.Write("Digite o salário (ou um valor negativo para encerrar): ");
+    salario = double.Parse(Console.ReadLine());
+}
+
+// Calculando e exibindo os resultados
+if (i > 0)
+{
+    mediaSalario = somaSalario / i;
+    mediaFilhos = (double)somaFilhos / i;
+    perc1500 = ((double)cont1500 / i) * 100;
+
+    Console.WriteLine($"Média salarial da população: R$ {mediaSalario:F2}");
+    Console.WriteLine($"Média do número de filhos: {mediaFilhos:F2}");
+    Console.WriteLine($"Percentual de pessoas com salário até R$ 1500,00: {perc1500:F2}%");
+}
+else
+{
+    Console.WriteLine("Nenhum dado informado.");
+}
+
