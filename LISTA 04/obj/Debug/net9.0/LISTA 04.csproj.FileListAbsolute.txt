@@ -1,0 +1,15 @@
+C:\Users\1438757\Downloads\ATP\LISTA 04\obj\Debug\net9.0\LISTA 04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1438757\Downloads\ATP\LISTA 04\obj\Debug\net9.0\LISTA 04.AssemblyInfoInputs.cache
+C:\Users\1438757\Downloads\ATP\LISTA 04\obj\Debug\net9.0\LISTA 04.AssemblyInfo.cs
+C:\Users\1438757\Downloads\ATP\LISTA 04\obj\Debug\net9.0\LISTA 04.csproj.CoreCompileInputs.cache
+C:\Users\1438757\Downloads\ATP\LISTA 04\obj\Debug\net9.0\LISTA 04.sourcelink.json
+C:\Users\1438757\Downloads\ATP\LISTA 04\bin\Debug\net9.0\LISTA 04.exe
+C:\Users\1438757\Downloads\ATP\LISTA 04\bin\Debug\net9.0\LISTA 04.deps.json
+C:\Users\1438757\Downloads\ATP\LISTA 04\bin\Debug\net9.0\LISTA 04.runtimeconfig.json
+C:\Users\1438757\Downloads\ATP\LISTA 04\bin\Debug\net9.0\LISTA 04.dll
+C:\Users\1438757\Downloads\ATP\LISTA 04\bin\Debug\net9.0\LISTA 04.pdb
+C:\Users\1438757\Downloads\ATP\LISTA 04\obj\Debug\net9.0\LISTA 04.dll
+C:\Users\1438757\Downloads\ATP\LISTA 04\obj\Debug\net9.0\refint\LISTA 04.dll
+C:\Users\1438757\Downloads\ATP\LISTA 04\obj\Debug\net9.0\LISTA 04.pdb
+C:\Users\1438757\Downloads\ATP\LISTA 04\obj\Debug\net9.0\LISTA 04.genruntimeconfig.cache
+C:\Users\1438757\Downloads\ATP\LISTA 04\obj\Debug\net9.0\ref\LISTA 04.dll
