@@ -38,4 +38,4 @@ switch (op)
         Console.WriteLine ("Opção inválida! Selecione um número de 1 - 10");
         break;
 }*/
-EX02.Rodar();
+EX04.Rodar();
