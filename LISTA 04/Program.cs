@@ -1,4 +1,6 @@
-﻿/*string op;
+﻿using Modelo;
+
+string op;
 Console.WriteLine ("Informe qual exercício deseja testar: ");
 op = Console.ReadLine();
 
@@ -11,7 +13,7 @@ switch (op)
         EX02.Rodar();
         break;
     case "3":
-        EX03.Rodar();
+        Triangulo.Rodar();
         break;
     case "4":
         EX04.Rodar();
@@ -32,10 +34,10 @@ switch (op)
         EX09.Rodar();
         break;
     case "10":
-        EX010.Rodar();
+        EX10.Rodar();
         break;
     default:
-        Console.WriteLine ("Opção inválida! Selecione um número de 1 - 10");
+        Console.WriteLine("Opção inválida! Selecione um número de 1 - 10");
         break;
-}*/
-EX04.Rodar();
+}
+
